@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Petagram</string>
+
+    <string name="nombre_mascota">Perro</string>
+    <string name="nombre_mascota2">Gato</string>
+    <string name="nombre_mascota3">Hamster</string>
+    <string name="nombre_mascota4">Perico</string>
+    <string name="nombre_mascota5">Tortuga</string>
+    <string name="nombre_mascota6">Borrego</string>
+    <string name="nombre_mascota7">Colibrí</string>
+    <string name="nombre_mascota8">Conejo</string>
+    <string name="nombre_mascota9">Cuyo</string>
+    <string name="nombre_mascota10">Iguana</string>
+    <string name="nombre_mascota11">Pato</string>
+    <string name="numeroMascota">5</string>
+
+    <string name="ruta_mascota1" tools:ignore="ReferenceType">@drawable/perro</string>
+    <string name="ruta_mascota2" tools:ignore="ReferenceType">@drawable/gato</string>
+    <string name="ruta_mascota3" tools:ignore="ReferenceType">@drawable/hamster</string>
+    <string name="ruta_mascota4" tools:ignore="ReferenceType">@drawable/perico</string>
+    <string name="ruta_mascota5" tools:ignore="ReferenceType">@drawable/tortuga</string>
+    <string name="ruta_mascota6" tools:ignore="ReferenceType">@drawable/borrego</string>
+    <string name="ruta_mascota7" tools:ignore="ReferenceType">@drawable/colibri</string>
+    <string name="ruta_mascota8" tools:ignore="ReferenceType">@drawable/conejo</string>
+    <string name="ruta_mascota9" tools:ignore="ReferenceType">@drawable/cuyo</string>
+    <string name="ruta_mascota10" tools:ignore="ReferenceType">@drawable/iguana</string>
+    <string name="ruta_mascota11" tools:ignore="ReferenceType">@drawable/pato</string>
+
+    <string name="ruta_hueso" tools:ignore="ReferenceType">@drawable/iconohueso</string>
+    <string name="ruta_hueso_dorado" tools:ignore="ReferenceType">@drawable/iconohuesodorado</string>
+    <string name="ruta_huella" tools:ignore="ReferenceType">@drawable/huella</string>
+    <string name="ruta_white_star" tools:ignore="ReferenceType">@drawable/ic_white_star</string>
+
+
+</resources>

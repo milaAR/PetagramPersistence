@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardViewMascotas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/cardCornerRadius"
+    app:cardElevation="@dimen/cardViewElevation"
+    android:paddingRight="@dimen/paddingCardView"
+    android:paddingBottom="@dimen/paddingCardView"
+    android:paddingLeft="@dimen/paddingCardView"
+    android:paddingEnd="@dimen/paddingCardView"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imagenMascota"
+            android:layout_width = "match_parent"
+            android:layout_height = "@dimen/height_imagen_mascota"
+            app:srcCompat="@string/ruta_mascota1" />
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="319dp"
+                android:layout_height="46dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/icono_hueso"
+                    android:layout_width="@dimen/width_icono_hueso"
+                    android:layout_height="@dimen/height_icono_hueso"
+                    android:background="@drawable/iconohueso" />
+
+
+                <TextView
+                    android:id="@+id/nombreMascota"
+                    android:layout_width="@dimen/width_nombre_mascota"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/marginLeft_button"
+                    android:paddingTop="@dimen/padding_nombre_mascota"
+                    android:text="@string/nombre_mascota"
+                    android:textSize="@dimen/size_nombre_mascota"
+                    android:textStyle="bold"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/numeroMascotaFavotita"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/paddingTop_noMascota"
+                    android:text="@string/numeroMascota"
+                    android:textSize="@dimen/size_noMascota"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/icono_hueso_dorado"
+                    android:layout_width="@dimen/width_huesoDorado"
+                    android:layout_height="@dimen/height_icono_hueso"
+                    app:srcCompat="@string/ruta_hueso_dorado" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
